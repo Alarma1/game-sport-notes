@@ -1,29 +1,27 @@
-# game-sport-notes
+[Демо](https://alarma1.github.io/game-sport-notes-demo/#/)  
+[Ссылка на проект](https://github.com/Alarma1/game-sport-notes)
+## Задача
 
-This template should help get you started developing with Vue 3 in Vite.
+Необходимо создать приложение для поиска интересных заметок и сохранения их.
 
-## Recommended IDE Setup
+## API
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Для получения заметок используется следующий API: [https://api.quotable.io](https://api.quotable.io)
 
-## Customize configuration
+## ТЗ
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Пользователь заходит в ваше приложение и видит перед собой список из 10 заметок. Рядом с ним находится кнопка "Обновить заметки", которая удаляет старые и добавляет новые заметки.
 
-## Project Setup
+2. Каждая заметка содержит контент, автора и дату создания, а также иконку для добавления/удаления в избранные.
 
-```sh
-npm install
-```
+3. При нажатии на имя автора заметки в списке обновляются на все заметки данного автора.
 
-### Compile and Hot-Reload for Development
+4. При добавлении заметки в избранное она перемещается в отдельный список, который сохраняется после обновления страницы.
 
-```sh
-npm run dev
-```
+5. Из избранных заметок можно удалять как по одной, так и все сразу.
 
-### Compile and Minify for Production
+## Стек
 
-```sh
-npm run build
-```
+- Vue
+- TypeScript
+- Любые сторонние библиотеки
